@@ -65,7 +65,7 @@ class TrainerACE:
 
         self.iteration = 0
         self.training_start = None
-        self.num_data_loader_workers = 12
+        self.num_data_loader_workers = 0
 
         # Create dataset.
         self.dataset = CamLocDataset(
